@@ -7,7 +7,7 @@ all_from 'lib/Devel/InterpreterSize.pm';
 license 'apache2';
 requires 'Class::Load';
 if ($Config{'osname'} =~ /(?:darwin|bsd|aix)/i) {
-    requires 'BSD::Resoruce';
+    requires 'BSD::Resource';
 }
 if ($Config{'osname'} eq 'linux') {
     requires 'Linux::Pid';

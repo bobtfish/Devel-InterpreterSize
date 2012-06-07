@@ -21,28 +21,15 @@ AUTHORS
 
     And below:
 
-    *
+    Doug Bagley <doug+modperl bagley.org>, channeling Procrustes.
+        -item Brian Moseley <ix maz.org>: Solaris 2.6 support
 
-            -ober Brian Moseley <ix maz.org>: Solaris 2.6 support
+    Doug Steinwand and Perrin Harkins <perrin elem.com>: added support for
+    shared memory and additional diagnostic info
+    Matt Phillips <mphillips virage.com> and Mohamed Hendawi <mhendawi
+    virage.com>: Win32 support
+    Torsten Foertsch <torsten.foertsch gmx.net>: Linux::Smaps support
 
-                    The Apache Software License, Version 2.0.
-
-POD ERRORS
-    Hey! The above document had some coding errors, which are explained
-    below:
-
-    Around line 193:
-        '=item' outside of any '=over'
-
-    Around line 195:
-        =over should be: '=over' or '=over positive_number'
-
-    Around line 199:
-        =over should be: '=over' or '=over positive_number'
-
-    Around line 201:
-        =over should be: '=over' or '=over positive_number'
-
-    Around line 207:
-        Unknown directive: =HEAD1
+LICENSE
+    The Apache Software License, Version 2.0.
 

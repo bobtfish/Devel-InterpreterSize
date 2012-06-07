@@ -190,21 +190,21 @@ L<Apache2::SizeLimit>.
 
 And below:
 
-=item
+=over
 
-=over Doug Bagley <doug+modperl bagley.org>, channeling Procrustes.
+=item Doug Bagley <doug+modperl bagley.org>, channeling Procrustes.
 
--ober Brian Moseley <ix maz.org>: Solaris 2.6 support
+-item Brian Moseley <ix maz.org>: Solaris 2.6 support
 
-=over Doug Steinwand and Perrin Harkins <perrin elem.com>: added support for shared memory and additional diagnostic info
+=item Doug Steinwand and Perrin Harkins <perrin elem.com>: added support for shared memory and additional diagnostic info
 
-=over Matt Phillips <mphillips virage.com> and Mohamed Hendawi <mhendawi virage.com>: Win32 support
+=item Matt Phillips <mphillips virage.com> and Mohamed Hendawi <mhendawi virage.com>: Win32 support
 
-=over Torsten Foertsch <torsten.foertsch gmx.net>: Linux::Smaps support
+=item Torsten Foertsch <torsten.foertsch gmx.net>: Linux::Smaps support
 
 =back
 
-=HEAD1 LICENSE
+=head1 LICENSE
 
 The Apache Software License, Version 2.0.
 
