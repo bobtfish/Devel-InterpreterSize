@@ -1,0 +1,48 @@
+NAME
+    Devel::InterpreterSize - Get rough sizes for the memory useage of perl
+
+SYNOPIS
+        use Devel::InterpreterSize;
+        my ($total, $shared, $unshared) = Devel::InterpreterSize->new->check_size;
+
+DESCRIPTION
+    Gives you back some simple figures for how much memory your perl us
+    using, in kilobytes.
+
+ORIGINAL AUTHOR
+    Most of the code was stolen from Apache2::SizeLimit with slight tweaks.
+
+THIS MODULES AUTHOR
+    Tomas (t0m) Doran "<bobtfish@bobtfish.net">
+
+AUTHORS
+    All code taken from mod_perl is copyright the authors llisted in
+    Apache2::SizeLimit.
+
+    And below:
+
+    *
+
+            -ober Brian Moseley <ix maz.org>: Solaris 2.6 support
+
+                    The Apache Software License, Version 2.0.
+
+POD ERRORS
+    Hey! The above document had some coding errors, which are explained
+    below:
+
+    Around line 193:
+        '=item' outside of any '=over'
+
+    Around line 195:
+        =over should be: '=over' or '=over positive_number'
+
+    Around line 199:
+        =over should be: '=over' or '=over positive_number'
+
+    Around line 201:
+        =over should be: '=over' or '=over positive_number'
+
+    Around line 207:
+        Unknown directive: =HEAD1
+
