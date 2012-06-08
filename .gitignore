@@ -1,4 +1,4 @@
-^Devel-InterpreterSize
+Devel-InterpreterSize-*
 blib/
 MANIFEST
 MANIFEST.bak
